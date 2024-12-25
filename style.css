@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header > nav {
+    font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 50px;
+}
+
+.header-logo {
+    font-size: 24px;    
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 200px;
+}
+
+header section .hero {
+    width: 400px;
+}
+
+header section .hero h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+header section .hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header section .image {
+    width: 500px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+header section button {
+    background-color: #3882f6;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+section > h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+section .boxes-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 200px;
+    height: 250px;
+}
+
+section .box {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+section .box > img {
+    width: 200px;
+    height: 142px;
+}
+
+article {
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: light;
+}
+
+article p {
+    font-weight: 900;
+    text-align: right;
+    font-size: 24px;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    background-color: #3882f6;
+    width: max-content;
+    margin: 0 auto;
+    padding: 80px;
+    border-radius: 25px;
+}
+
+aside {
+    padding: 50px;
+}
+
+.call-to-action {
+    width: 80%;
+}
+
+aside button {
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    width: 70px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 30px;
+    color: #f9faf8;
+}
